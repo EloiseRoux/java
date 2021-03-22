@@ -21,8 +21,9 @@ public class Etudiant {
 
 	}
 
+	// Renvoyer un string
 	public String toString() {
-		return "nom: " + this.nom + " ,âge: " + this.age + ", année de naissance: " + this.dateNaissance + ", moyenne:"
+		return "nom: " + this.nom + " ,ï¿½ge: " + this.age + ", annï¿½e de naissance: " + this.dateNaissance + ", moyenne:"
 				+ this.calculmoyenne();
 
 	}
